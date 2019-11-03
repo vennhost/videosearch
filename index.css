@@ -1,0 +1,117 @@
+body {
+    background: blanchedalmond;
+}
+
+nav ul li {
+    display: inline-flex;
+    font-family: cursive, sans-serif;
+    font-size: 22px;
+    margin-right: auto;
+    
+    
+}
+
+nav ul {
+    align-content: end;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: 700;;
+}
+
+nav {
+    background: black;
+    text-align: center;
+    display: flex;
+}
+
+input {
+    background: transparent;
+    border: 1px solid white;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+    background-image: url(./img/icons8-search-50.png);
+    background-position-x: right;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+    font-size: 36px;
+   
+}
+
+input.hover {
+    border: 1px solid black;
+}
+
+.nav-wrapper {
+    background: black;
+    width: 100%;
+}
+
+a.nav-link {
+    margin-right: 10px;
+    
+}
+
+span {
+    color: hotpink;
+    text-emphasis: bold;
+}
+
+h1 {
+    margin-left: 10px;
+    color: white;
+    padding-left: auto;
+}
+
+.search-bar {
+    justify-content: center;
+}
+
+.video-wrapper {
+    
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+.video-wrapper li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-left: -40px;
+}
+
+.video-wrapper li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
+
+/* body {
+    background: red;
+} */
